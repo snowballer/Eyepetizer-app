@@ -72,7 +72,7 @@ npm run build
 </template>
 ```
 
-**Router history**：默认采用hashhistory，路径匹配时会多出/#/部分，为了提供优雅的url，查阅了vue-router官方文档，增加了mode代码行，但同时发现路由会出现匹配不到页面时跳转到首页问题，在路由中增加了其他路径匹配NotFound组件
+**Router history**：默认采用hashhistory，路径匹配时会多出/#/部分，为了提供优雅的url，查阅了vue-router官方文档，增加了mode代码行，但同时发现路由会出现匹配不到页面时跳转到首页的问题，因此在路由中增加了其他路径匹配NotFound组件
 
 ```javascript
 export default new Router({
