@@ -61,7 +61,7 @@ npm run build
 }
 ```
 
-**组件更新**：针对不同路由路径下同一组件如何更新的问题，vue-router官方文档给出了watch路由路径改变的解决方案，但考虑到运用React曾经出现过同样问题，想到vue也是虚拟DOM进行渲染，在router-view组件上加上key从而解决
+**组件更新**：针对不同路由路径下同一组件如何更新的问题，vue-router官方文档给出了watch路由路径改变的解决方案，但考虑到使用React曾经出现过同样问题，想到vue也是虚拟DOM进行渲染，在router-view组件上加上key从而解决
 
 ```html
 <template>
